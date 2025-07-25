@@ -1,6 +1,7 @@
 on:
   push:
     branches: [ "master" ]
+    
 env:
   IMAGE_NAME: test-images
 jobs:
