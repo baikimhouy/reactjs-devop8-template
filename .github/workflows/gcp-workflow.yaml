@@ -1,9 +1,9 @@
 on:
   push:
-    branches: [ "123424" ]
+    branches: [ "master" ]
 
 env:
-  IMAGE_NAME: reactjs-image-gcp
+  IMAGE_NAME: test-image
 jobs:
   build-and-push:
     runs-on: ubuntu-latest 
